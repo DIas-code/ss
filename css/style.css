@@ -16,6 +16,15 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(https://lh4.googleusercontent.com/Yp9KWHf6KHMSUMHODsA_e5CzKfIcaxO9KFfDMPqT0dvSzmBSrlO48Bsc6ruqgvUvHOVh9s6xLmgh-ocYUwQ8IQ=w16383);
     transform: translate3d(0px, 12.4444px, 0px);
 }
+.head2{
+    position: relative;
+    top: -13px;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url(https://lh4.googleusercontent.com/EGX-iS-zTx7RG5yi3qFNPnbTBU_EtPWKh65uMGjQtx7lzflVnfaNKmB70AlZg_o6b0Via1qF20F7qI0hOMdvwe8=w16383);
+    transform: translate3d(0px, 12.4444px, 0px);
+    padding-bottom: 111px;
+}
 .btn{
     background-color: #ffffff;
     border-color: #d7d7d7;
@@ -73,7 +82,7 @@ body{
     vertical-align: middle;
 }
 .h_links{
-    font-size: 20px;
+    /*font-size: 1px;*/
     text-decoration: none;
     color: white;
 }
@@ -114,4 +123,23 @@ footer{
     height: 80px;
     position: absolute;
     background-color: rgba(35,124,103,1);
+}
+.mt0px{
+    margin-top: 0;
+}
+.border_areas{
+    border: 2px solid seagreen;
+    border-radius: 10px;
+}
+.mb0px{
+    margin-bottom: 0;
+}
+hr{
+    border-color: seagreen;
+    /*color:rgba(35,124,103,1);*/
+}
+.prl2px{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
 }
